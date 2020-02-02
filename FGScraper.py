@@ -42,7 +42,6 @@ def scraper(y):
     
 
     #does HTML parsing
-    # print("fuck you andrew")
     playerPageSoup=soup(playerHTML, "lxml")
 
     playerFG = playerPageSoup.find(string = "FG%").find_next("p").find_next("p").get_text()

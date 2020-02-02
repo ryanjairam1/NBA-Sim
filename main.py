@@ -2,6 +2,7 @@
 #send a request to https://www.google.com/search?q= followed by the "Basketball Reference" followed by first name and then last name
 #then get the first google link
 #then use your FGScraper to get their FG%
+
 from gamePlayed import game
 from FGScraper import scraper
 
