@@ -8,6 +8,7 @@ from FGScraper import scraper
 
 playerList=[]
 fgList=[]
+
 player1 = input("Enter the name of player 1:")
 playerList.append(player1.replace(" ", ""))
 player2 = input("Enter the name of player 2:")

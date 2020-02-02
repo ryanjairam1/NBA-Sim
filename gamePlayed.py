@@ -5,7 +5,7 @@ def game(l,m):
 
     player1Score = 0
     player2Score = 0
-    targetscore = 20
+    targetscore = 15
 
     player1FG = float(fgList[0])/100
     player2FG = float(fgList[1])/100
