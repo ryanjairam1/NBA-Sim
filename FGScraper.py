@@ -15,15 +15,13 @@ def scraper(y):
 )
 
 
-
+    #this gets the html and saves it in a variable
+    #this is for the google link
     client = urlopen(req)
-
-    
-
     bbrHTML =client.read()
     client.close()
+
     bbrPageSoup=soup(bbrHTML, "lxml")
-    #print("made it before bs")
     basketballRefLink = bbrPageSoup.find("div", {"class":"r"})
 
     for a in basketballRefLink.find_all('a', href=True):
@@ -31,7 +29,6 @@ def scraper(y):
         #print(a['href'])
         break
 
-    #print(basketballRefLink)
 
     #opens connection, grabs page html
     
