@@ -1,4 +1,28 @@
 import random
+#def offensivePossession(x,y,z,w):
+  #  player = x
+   # twoPTFG = y
+    #threePTFG = z
+    #typeOfShot = w
+    #teamScore = 0
+#
+ #   twoPtRand = random.random()
+ #   threePtRand = random.random()
+ #   shotRand = random.random()
+ #   
+        #this is a 3 pt shot
+   # if (shotRand <= typeOfShot):
+     #   if(threePtRand <= threePTFG):
+     #       teamScore = teamScore + 3
+
+      #this is a 2 pt shot
+    #else:
+       # if(twoPtRand <= twoPTFG):
+           # teamScore = teamScore + 2
+
+    #return teamScore
+
+
 def game(l,m):
     fgList = l
     playerList = m
@@ -53,6 +77,6 @@ def game(l,m):
     else:
         print(playerList[1], "  wins!")
 
-    print("p1 FG%:", round((p1shotsMade/p1TotalShots)*100,2), "%")
-    print("p2 FG%:", round((p2shotsMade/p2TotalShots)*100,2), "%")
+    print(playerList[0], " FG% for the game:", round((p1shotsMade/p1TotalShots)*100,2), "%")
+    print(playerList[1], " FG% for the game: ", round((p2shotsMade/p2TotalShots)*100,2), "%")
 
