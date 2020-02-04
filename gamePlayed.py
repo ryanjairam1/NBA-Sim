@@ -21,6 +21,7 @@ import random
            # teamScore = teamScore + 2
 
     #return teamScore
+    ##cale come to j beach
 
 
 def game(l,m):
